@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon">
+
+        {% block scripts %}
+        {% endblock %}
+        <link rel="stylesheet" href="/static/css/styles.css" type="text/css" />
+
+        {% block styles %}
+        {% endblock %}
+
+        {% block head %}
+        {% endblock %}
+    </head>
+    <body lang="ru">
+        <div id="container">
+            <div id="header">
+                {% block header %}
+                {% endblock %}
+            </div>
+            <div id="main">
+                {% block main %}
+                {% endblock %}
+            </div>
+            <div id="bottom">
+                {% block bottom %}
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

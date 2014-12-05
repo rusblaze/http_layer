@@ -1,0 +1,19 @@
+{% extends "base.dtl" %}
+{% block styles %}
+{% endblock %}
+
+{% block head %}
+<title>Not found</title>
+{% endblock %}
+
+{% block header %}
+<h1>Resource not found</h1>
+{% endblock %}
+
+{% block main %}
+<p>Can't find resource <pre style="display: inline;">{{ path }}</pre></p>
+{% endblock %}
+
+{% block bottom %}
+<p>Check please, if path is correct :)</p>
+{% endblock %}

@@ -1,0 +1,13 @@
+{application, http_layer,
+ [
+  {description, "common http layer"},
+  {vsn, "0.0.1.T.1"},
+  {registered, []},
+  {applications, [ kernel
+                 , stdlib
+                 , erlydtl
+                 , cowboy
+                 ]},
+  {mod, { http_layer_app, []}},
+  {env, []}
+ ]}.
